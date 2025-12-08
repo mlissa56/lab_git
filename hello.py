@@ -1,2 +1,8 @@
 import sys
-print("Hello appsec world" )
+
+def main():
+    name = input("Enter your name: ")
+    print(f"Hello appsec world from @{name}")
+
+if __name__ == "__main__":
+    main()
